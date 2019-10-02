@@ -6,7 +6,7 @@ on:
     - 'hw2.Rmd'  
 name: Check Repo
 jobs:
-  allowed-files:
+  knit:
     runs-on: ubuntu-latest
     container:
       image: rocker/tidyverse:latest
@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@master
     - name: Check
       run:  Rscript -e "rmarkdown::render('hw2.Rmd')"
-  knit:
+  allowed-files:
     runs-on: ubuntu-latest
     container:
       image: rocker/r-ver:latest
