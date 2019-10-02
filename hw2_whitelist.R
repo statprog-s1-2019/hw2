@@ -1,6 +1,3 @@
-library(stringr)
-library(purrr)
-
 allowed_files = c("hw2.md",
                   "hw2.Rmd",
                   "hw2.Rproj",
@@ -11,7 +8,7 @@ allowed_files = c("hw2.md",
                   ".gitignore")
 
 files = dir()
-disallowed_files = !map_lgl(files, ~ any(str_detect(., allowed_files)))
+disallowed_files = files[!(files %in% allowed_files)]
 
 if (any(disallowed_files)){
   cat("Disallowed files found:\n")
