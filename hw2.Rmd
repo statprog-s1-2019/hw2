@@ -30,6 +30,10 @@ Be sure to include a write up of your methods.
 ```
 
 
+<!-- Print out the first 10 lines of your tidy data frame below -->
+```{r}
+```
+
 <br/>
 
 ### Part 2 - Questions
@@ -77,6 +81,10 @@ Be sure to include a write up of your methods.
 ```{r}
 ```
 
+<!-- Print out the first 10 lines of your tidy data frame below -->
+```{r}
+```
+
 
 ### Part 2 - Questions
 
@@ -91,7 +99,7 @@ Be sure to include a write up of your methods.
 ```{r}
 ```
 
-3. When is the most active time of the day for development on dplyr? More specifically, what is the average number of total changes made per commit for each hour of the day? Your result should exclude any commits that have a commit message containing the strings `"revdep"` or `"Merge"`.
+3. When is the most active time of the day for development on dplyr? More specifically, what is the average number of total changes made per commit for each hour of the day?
 
 ```{r}
 ```
