@@ -7,6 +7,7 @@ allowed_files = c("hw2.md",
                   "hw2_whitelist.R",
                   "README.md",
                   "data",
+                  "hw2_files",
                   ".gitignore")
 
 files = dir()
