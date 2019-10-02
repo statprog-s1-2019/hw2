@@ -1,6 +1,6 @@
 Statistical Programming - Homework 2
 ------------
-Due on Friday october 18th by 11:59 pm.
+Due on Friday October 18th by 11:59 pm.
 
 <br/>
 
@@ -110,7 +110,7 @@ Your write up should detail your process for generating this tidy data frame as 
 
 This homework is due by *11:59 pm Friday, October 18th*. You are to complete the assignment as a group and to keep everything (code, write ups, etc.) on your team's github repository (commit early and often). All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different coding backgrounds and abilities, it is the responsibility of every team member to understand how and why all code in the assignment works.
 
-The final product for this assignment should be a single Rmd document (a template of which is provided) that contains all code and text for the tasks described above. This document should be clearly and cleanly formated and present all of your results. Style, efficiency, formating, and readability all count for this assignment, so please take the time to make sure everything looks good and your text and code are properly formated. This document must be reproducible and I must be able to compile it with minimal intervention - documents that do not compile will be given a 0. 
+The final product for this assignment should be a single Rmd document (`hw2.Rmd`, a template of which is provided) that contains all code and text for the tasks described above. This document should be clearly and cleanly formated and present all of your writeup and results. Style, efficiency, formating, and readability all count for this assignment, so please take the time to make sure everything looks good and your text and code are properly formated. This document must be reproducible and I must be able to compile it with minimal intervention - documents that do not compile will be given a 0. 
 
 <br/>
 
