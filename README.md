@@ -41,7 +41,7 @@ Several guidelines / hints:
 <br/>
 
 
-### Part 2 - Questions about the data
+### Part 2 - Questions
 
 This task will involve answering a number of questions about that data that will involve manipulating and summarizing the data frame you created in part 1. You are also welcome to use the original `sales` object if you believe that approach is more efficient for any particular question.
 
@@ -56,6 +56,8 @@ Only a one or two sentance write up is needed for these questions so long as you
 1. Do men or women buy more lego sets (per person) on average?
 
 1. What are the five most popular hobbies of lego purchasers?
+
+1. Which area code has spent the most money on legos?
 
 
 ## Task 2 - GitHub and dplyr
@@ -89,7 +91,7 @@ Just like the previous task you are now expected to create a tidy data frame fro
 
 Your write up should detail your process for generating this tidy data frame as well as details about which columns you chose to include and why.
 
-### Part 2 - 
+### Part 2 - Questions
 
 1. Who are the top five contributors (in terms of the most commits) to dplyr in the last year?
 
