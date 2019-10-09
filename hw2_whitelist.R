@@ -8,9 +8,9 @@ allowed_files = c("hw2.md",
                   ".gitignore")
 
 files = dir()
-disallowed_files = files[!(files %in% allowed_files)]
+disallowed_files = !files %in% allowed_files
 
-if (any(disallowed_files)){
+if (any(disallowed_files)) {
   cat("Disallowed files found:\n")
   cat("  (remove the following files from your repo)\n\n")
 
