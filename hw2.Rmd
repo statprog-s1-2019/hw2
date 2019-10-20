@@ -16,7 +16,7 @@ library(tidyr)
 ## Task 1 - Lego Sales Data
 
 ```{r message = FALSE}
-sales = readRDS("data/lego_sales.rds")
+sales <- readRDS("data/lego_sales.rds")
 ```
 
 ### Part 1 - Tidying the data
@@ -27,11 +27,13 @@ Be sure to include a write up of your methods.
 -->
 
 ```{r}
+
 ```
 
 
 <!-- Print out the first 10 lines of your tidy data frame below -->
 ```{r}
+
 ```
 
 <br/>
@@ -42,25 +44,30 @@ Be sure to include a write up of your methods.
 1. What are the three most common first names of purchasers?
 
 ```{r}
+
 ```
 
 2. Which lego theme has made the most money for lego?
 
 ```{r}
+
 ```
 
 3. Do men or women buy more lego sets (per person) on average?
 
 ```{r}
+
 ```
 4. What are the five most popular hobbies of lego purchasers?
 
 ```{r}
+
 ```
 
 5. Which area code has spent the most money on legos?
 
 ```{r}
+
 ```
 
 
@@ -68,7 +75,7 @@ Be sure to include a write up of your methods.
 ## Task 2 - GitHub and dplyr
 
 ```{r message = FALSE}
-commits = readRDS("data/dplyr_2019_commits.rds")
+commits <- readRDS("data/dplyr_2019_commits.rds")
 ```
 
 ### Part 1 - Tidying the data
@@ -79,10 +86,12 @@ Be sure to include a write up of your methods.
 -->
 
 ```{r}
+
 ```
 
 <!-- Print out the first 10 lines of your tidy data frame below -->
 ```{r}
+
 ```
 
 
@@ -92,24 +101,29 @@ Be sure to include a write up of your methods.
 1. Who are the top five contributors (in terms of the most commits) to dplyr in the last year?
 
 ```{r}
+
 ```
 
 2. Which four files have been modified in the most number of commits?
 
 ```{r}
+
 ```
 
 3. When is the most active time of the day for development on dplyr? More specifically, what is the average number of total changes made per commit for each hour of the day?
 
 ```{r}
+
 ```
 
 4. Based on these data is there any "evidence" that commit message length is related to the complexity of the commit (as measured by the total number of changes in the commit)? Justify your answer.
 
 ```{r}
+
 ```
 
 5. Other than Romain Francois, which three contributors have worked on the most different files in the repository? In order words, who has the greatest number of unique file names among their commits.
 
 ```{r}
+
 ```
