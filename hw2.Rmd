@@ -16,7 +16,7 @@ library(tidyr)
 ## Task 1 - Lego Sales Data
 
 ```{r message = FALSE}
-sales = readRDS("data/lego_sales.rds")
+sales <- readRDS("data/lego_sales.rds")
 ```
 
 ### Part 1 - Tidying the data
@@ -27,6 +27,7 @@ Be sure to include a write up of your methods.
 -->
 
 ```{r}
+
 ```
 
 
@@ -68,7 +69,7 @@ Be sure to include a write up of your methods.
 ## Task 2 - GitHub and dplyr
 
 ```{r message = FALSE}
-commits = readRDS("data/dplyr_2019_commits.rds")
+commits <- readRDS("data/dplyr_2019_commits.rds")
 ```
 
 ### Part 1 - Tidying the data
